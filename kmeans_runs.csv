@@ -1,0 +1,13 @@
+dataset,run_id,seed,representation,n_clusters,n_init,train_inertia,val_ari,val_silhouette,val_silhouette_defined,val_cluster_counts
+breast_cancer,breast_cancer_kmeans_unscaled_k2_s42,42,unscaled,2,10,51565380.54475835,0.3994620040349697,0.6387246056900386,True,"[46, 11]"
+breast_cancer,breast_cancer_kmeans_scaled_k2_s42,42,scaled,2,10,7918.810073369005,0.4515568622210343,0.2854479697928221,True,"[43, 14]"
+breast_cancer,breast_cancer_kmeans_unscaled_k2_s52,52,unscaled,2,10,49190782.178761736,0.6122448979591837,0.6974731996701026,True,"[42, 15]"
+breast_cancer,breast_cancer_kmeans_scaled_k2_s52,52,scaled,2,10,8003.001044703404,0.558608787999469,0.3750308588988687,True,"[18, 39]"
+breast_cancer,breast_cancer_kmeans_unscaled_k2_s62,62,unscaled,2,10,53056488.40346977,0.5013390465988217,0.6957774584613585,True,"[44, 13]"
+breast_cancer,breast_cancer_kmeans_scaled_k2_s62,62,scaled,2,10,7922.514892529939,0.7335978835978836,0.275780554724899,True,"[36, 21]"
+wine,wine_kmeans_unscaled_k3_s42,42,unscaled,3,10,1350496.459146878,0.2828363418769323,0.4869935865562761,True,"[8, 4, 6]"
+wine,wine_kmeans_scaled_k3_s42,42,scaled,3,10,874.7390689731376,1.0,0.2516365967007113,True,"[6, 7, 5]"
+wine,wine_kmeans_unscaled_k3_s52,52,unscaled,3,10,1303674.820719839,0.4005876591576885,0.5558874627003161,True,"[9, 5, 4]"
+wine,wine_kmeans_scaled_k3_s52,52,scaled,3,10,890.4355276320275,1.0,0.3010079837808626,True,"[7, 5, 6]"
+wine,wine_kmeans_unscaled_k3_s62,62,unscaled,3,10,1390754.2170924463,0.4005876591576885,0.6866708572203687,True,"[5, 4, 9]"
+wine,wine_kmeans_scaled_k3_s62,62,scaled,3,10,872.246563384283,1.0,0.2725873650221049,True,"[6, 5, 7]"
